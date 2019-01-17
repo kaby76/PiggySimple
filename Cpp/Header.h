@@ -3,8 +3,9 @@
 #define EXPORT __declspec(dllexport)
 #define IMPORT __declspec(dllimport)
 
-EXPORT const char * Test1();
-EXPORT void Test2(const char ** str);
+EXPORT void Test1();
+EXPORT const char * Test2();
+EXPORT void Test3(const char ** str);
 
 struct struct1
 {
@@ -12,5 +13,5 @@ struct struct1
 	int b;
 };
 
-EXPORT struct1 Test3();
-EXPORT void Test4(struct struct1 * a);
+EXPORT struct1 Test4();
+EXPORT void Test5(struct struct1 * a);

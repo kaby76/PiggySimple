@@ -6,12 +6,13 @@ namespace Csharp
 {
     class Program
     {
-        static void Main(string[] args)
+        static unsafe void Main(string[] args)
         {
-            var test1 = Functions.Test1();
-            Functions.Test2(out IntPtr str);
-            var s1 = Functions.Test3();
-            Functions.Test4(out struct1 as1);
+            Functions.Test1();
+            var test1 = Functions.Test2();
+            Functions.Test3(out IntPtr str);
+            var s1 = Functions.Test4();
+            Functions.Test5(out struct1 as1);
         }
     }
 }
