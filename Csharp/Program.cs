@@ -10,9 +10,11 @@ namespace Csharp
         {
             Functions.Test1();
             var test1 = Functions.Test2();
-            Functions.Test3(out IntPtr str);
+            IntPtr str = IntPtr.Zero;
+            Functions.Test3(ref str);
             var s1 = Functions.Test4();
-            Functions.Test5(out struct1 as1);
+            struct1 as1 = default(struct1);
+            Functions.Test5(ref as1);
         }
     }
 }
