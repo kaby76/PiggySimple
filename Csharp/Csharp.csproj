@@ -10,8 +10,12 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="piggy" Version="1.0.11">
+    <PackageReference Include="piggy" Version="1.0.12">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
@@ -21,6 +25,7 @@
     <Piggy Update="project1.pig">
       <ClangSourceFile>project1.cpp</ClangSourceFile>
       <AstOutputFile>ast.txt</AstOutputFile>
+      <OutputFile>.</OutputFile>
     </Piggy>
   </ItemGroup>
 

@@ -1,0 +1,65 @@
+( TranslationUnitDecl Pointer="0x212a5b7a558" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>"
+  ( TypedefDecl Pointer="0x212a5b7ae30" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" Name="__int128_t" Type="__int128"
+    ( BuiltinType Pointer="0x212a5b7aaf0" BareType="__int128" Sugar=""
+  ) )
+  ( TypedefDecl Pointer="0x212a5b7ae98" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" Name="__uint128_t" Type="unsigned __int128"
+    ( BuiltinType Pointer="0x212a5b7ab10" BareType="unsigned __int128" Sugar=""
+  ) )
+  ( TypedefDecl Pointer="0x212a5b7b1f8" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" Name="__NSConstantString" Type="struct __NSConstantString_tag"
+    ( RecordType Pointer="0x212a5b7af80" BareType="struct __NSConstantString_tag" Sugar=""
+      ( CXXRecord Pointer="0x212a5b7aee8" Name="__NSConstantString_tag"
+  ) ) )
+  ( CXXRecordDecl Pointer="0x212be575720" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" KindName="class" Name="type_info" Attrs=""
+    ( TypeVisibilityAttr Pointer="0x212be5757e0" SrcRange="<invalid sloc>" Attrs="Implicit" Value=" Default"
+  ) )
+  ( TypedefDecl Pointer="0x212be575838" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" Name="size_t" Type="unsigned long long"
+    ( BuiltinType Pointer="0x212a5b7a730" BareType="unsigned long long" Sugar=""
+  ) )
+  ( TypedefDecl Pointer="0x212be5758d0" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" Name="__builtin_ms_va_list" Type="char *"
+    ( PointerType Pointer="0x212be575890" BareType="char *" Sugar=""
+      ( BuiltinType Pointer="0x212a5b7a5f0" BareType="char" Sugar=""
+  ) ) )
+  ( TypedefDecl Pointer="0x212be575938" SrcRange="<invalid sloc>"  SrcLoc="<invalid sloc>" Attrs="implicit" Name="__builtin_va_list" Type="char *"
+    ( PointerType Pointer="0x212be575890" BareType="char *" Sugar=""
+      ( BuiltinType Pointer="0x212a5b7a5f0" BareType="char" Sugar=""
+  ) ) )
+  ( FunctionDecl Pointer="0x212be5759e0" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:16, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:6:19"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:6:13" Name="Test1" Type="void (void)" Attrs=""
+    ( DLLExportAttr Pointer="0x212be575a80" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:27" Value=""
+  ) )
+  ( FunctionDecl Pointer="0x212be575b58" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:16, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:7:27"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:7:21" Name="Test2" Type="const char *(void)" Attrs=""
+    ( DLLExportAttr Pointer="0x212be575bf8" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:27" Value=""
+  ) )
+  ( FunctionDecl Pointer="0x212be575d40" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:16, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:8:36"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:8:13" Name="Test3" Type="void (const char **)" Attrs=""
+    ( ParmVarDecl Pointer="0x212be575c80" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:8:19, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:8:33"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:8:33" Name="str" Type="const char **" Attrs=""
+    )
+    ( DLLExportAttr Pointer="0x212be575de8" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:27" Value=""
+  ) )
+  ( CXXRecordDecl Pointer="0x212be575e28" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:10:1, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:14:1"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:10:8" Attrs="referenced" KindName="struct" Name="struct1" Attrs="definition"
+    ( DefinitionData Data=" pass_in_registers aggregate standard_layout trivially_copyable pod trivial literal"
+      ( DefaultConstructor Data=" exists trivial needs_implicit"
+      )
+      ( CopyConstructor Data=" simple trivial has_const_param needs_implicit implicit_has_const_param"
+      )
+      ( MoveConstructor Data=" exists simple trivial needs_implicit"
+      )
+      ( CopyAssignment Data=" trivial has_const_param needs_implicit implicit_has_const_param"
+      )
+      ( MoveAssignment Data=" exists simple trivial needs_implicit"
+      )
+      ( Destructor Data=" simple irrelevant trivial needs_implicit"
+    ) )
+    ( CXXRecordDecl Pointer="0x212be575f48" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:10:1, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:10:8"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:10:8" Attrs="implicit" KindName="struct" Name="struct1" Attrs=""
+    )
+    ( FieldDecl Pointer="0x212be575ff8" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:12:2, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:12:6"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:12:6" Name="a" Type="int"
+    )
+    ( FieldDecl Pointer="0x212be576060" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:13:2, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:13:6"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:13:6" Name="b" Type="int"
+  ) )
+  ( FunctionDecl Pointer="0x212be576120" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:16, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:16:22"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:16:16" Name="Test4" Type="struct struct1 (void)" Attrs=""
+    ( DLLExportAttr Pointer="0x212be5761c0" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:27" Value=""
+  ) )
+  ( FunctionDecl Pointer="0x212be5763c0" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:16, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:17:37"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:17:13" Name="Test5" Type="void (struct struct1 *)" Attrs=""
+    ( ParmVarDecl Pointer="0x212be5762c0" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:17:19, C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:17:36"  SrcLoc="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:17:36" Name="a" Type="struct struct1 *" Attrs=""
+    )
+    ( DLLExportAttr Pointer="0x212be576468" SrcRange="C:\Users\Kenne\Documents\PiggySimple\Csharp\..\Cpp\Header.h:3:27" Value=""
+
+) ) )
