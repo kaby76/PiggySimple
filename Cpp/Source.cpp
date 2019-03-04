@@ -32,6 +32,11 @@ extern "C" {
 		a->b = 2;
 	}
 
+	EXPORT int Test6(nvgraphSemiring_t e)
+	{
+		return (int)e;
+	}
+
 #ifdef __cplusplus
 }
 #endif

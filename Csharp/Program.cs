@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
 
 namespace Csharp
 {
+
+
     class Program
     {
         static unsafe void Main(string[] args)
@@ -15,6 +15,7 @@ namespace Csharp
             var s1 = Functions.Test4();
             struct1 as1 = default(struct1);
             Functions.Test5(ref as1);
+            System.Console.WriteLine(Functions.Test6(nvgraphSemiring_t.NVGRAPH_MIN_PLUS_SR));
         }
     }
 }

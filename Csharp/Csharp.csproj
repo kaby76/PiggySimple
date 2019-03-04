@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="piggy" Version="1.0.12">
+    <PackageReference Include="piggy" Version="1.0.14">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
@@ -25,7 +25,7 @@
     <Piggy Update="project1.pig">
       <ClangSourceFile>project1.cpp</ClangSourceFile>
       <AstOutputFile>ast.txt</AstOutputFile>
-      <OutputFile>.</OutputFile>
+      <OutputFile>"obj\Debug\net471"</OutputFile>
     </Piggy>
   </ItemGroup>
 
